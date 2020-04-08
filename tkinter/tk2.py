@@ -3,23 +3,24 @@ from tkinter import *
 
 root = Tk()
 
-# textLabel = Label(root, text="你不能打开, you can't open it")
-# textLabel.pack()
+"""
+textLabel = Label(root, text="你不能打开, you can't open it")
+textLabel.pack()
 
-# photo = PhotoImage(file = "/Users/cc/Desktop/cc/python/pystudy/tkinter/image/b.gif")
-# imageLabel = Label(root, image=photo)
-# imageLabel.pack()
+photo = PhotoImage(file = "/Users/cc/Desktop/cc/python/pystudy/tkinter/image/b.gif")
+imageLabel = Label(root, image=photo)
+imageLabel.pack()
 
-# photo2 = PhotoImage(file = "/Users/cc/Desktop/cc/python/pystudy/tkinter/image/c.gif")
-# theLabel = Label(root,
-#                  text="hello cc, welcome to learn python",
-#                  justify=LEFT,
-#                  image=photo2,
-#                  compound=CENTER,
-#                  font=("楷书",20),
-#                  fg="black")
-# theLabel.pack()
-
+photo2 = PhotoImage(file = "/Users/cc/Desktop/cc/python/pystudy/tkinter/image/c.gif")
+theLabel = Label(root,
+                 text="hello cc, welcome to learn python",
+                 justify=LEFT,
+                 image=photo2,
+                 compound=CENTER,
+                 font=("楷书",20),
+                 fg="black")
+theLabel.pack()
+"""
 
 frame1 = Frame(root)
 frame2 = Frame(root)
