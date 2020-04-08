@@ -1,3 +1,4 @@
+# coding: UTF-8
 # 汉诺伊塔 x、y、z 柱子，x 借助 y 移到 z
 def hanoi(n, x, y, z):
     if n == 1:
